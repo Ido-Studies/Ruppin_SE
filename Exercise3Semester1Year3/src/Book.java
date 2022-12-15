@@ -25,7 +25,6 @@ public class Book {
        // System.out.println(str.length());
         //Book LastBook=GetLastRead(str);
         // System.out.println(LastBook);
-
     }
 }
 

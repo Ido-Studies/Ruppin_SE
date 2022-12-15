@@ -28,5 +28,4 @@ public class PRNParser {
             return status = "INCOMPLETE (incorrect size)";
         return status = "Done";
     }
-
 }
