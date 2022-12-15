@@ -10,8 +10,6 @@ public class Book {
         serialNumber = serial;
     }
 
-
-
     public String toString() {
         return ("name of the book= " + nameOfTheBook + "\nname of the author = " + authorName + "\nserial number = " + serialNumber);
     }

@@ -7,7 +7,7 @@ public class PRNParser {
         lastReadLine = null;
         status = "Completed";
     }
-
+    
     public Book GetLastRead() {
         String nameOfTheBook = (lastReadLine.substring(0, 41));
         if(!(nameOfTheBook.endsWith(" ")))
