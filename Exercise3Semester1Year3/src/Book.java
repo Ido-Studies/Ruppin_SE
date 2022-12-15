@@ -14,8 +14,6 @@ public class Book {
         return ("name of the book= " + nameOfTheBook + "\nname of the author = " + authorName + "\nserial number = " + serialNumber);
     }
 
-
-
     public static void main (String[] args) {
         String strDone = "Arrow of God                               Achebe,Chinua                     385014805";
         String strErrorNull = null;
