@@ -1,6 +1,5 @@
 package ParserPackage;
 
-import java.util.*;
 public class PRNParser {
     String lastReadLine;
     String status;

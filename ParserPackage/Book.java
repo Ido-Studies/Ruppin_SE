@@ -1,6 +1,5 @@
 package ParserPackage;
 
-import java.util.*;
 public class Book {
     String nameOfTheBook;
     String authorName;
