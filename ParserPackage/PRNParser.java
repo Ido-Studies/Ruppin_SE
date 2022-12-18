@@ -6,7 +6,7 @@ public class PRNParser {
 
     public PRNParser(){
         lastReadLine = null;
-        status = "Completed";
+        status = "Done";
     }
 
     public Book GetLastRead() {
