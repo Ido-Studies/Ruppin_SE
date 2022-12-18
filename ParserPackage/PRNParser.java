@@ -1,13 +1,11 @@
 package ParserPackage;
-
-import java.util.*;
 public class PRNParser {
     String lastReadLine;
     String status;
 
     public PRNParser(){
         lastReadLine = null;
-        status = "Completed";
+        status = "Done";
     }
 
     public Book GetLastRead() {
