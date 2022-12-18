@@ -1,4 +1,21 @@
 package ParserPackage;
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+import java.util.*;
+>>>>>>> branch 'main' of https://github.com/Ido-Studies/Ruppin_SE_HW3.git
+public class PRNParser {
+    String lastReadLine;
+    String status;
+
+    public PRNParser(){
+        lastReadLine = null;
+<<<<<<< HEAD
+        status = "Done";
+=======
+        status = "Completed";
+=======
 public class PRNParser {
     String lastReadLine;
     String status;
@@ -6,6 +23,8 @@ public class PRNParser {
     public PRNParser(){
         lastReadLine = null;
         status = "Done";
+>>>>>>> refs/heads/ido_unit-testing
+>>>>>>> branch 'main' of https://github.com/Ido-Studies/Ruppin_SE_HW3.git
     }
 
     public Book GetLastRead() {
