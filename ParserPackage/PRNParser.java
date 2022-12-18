@@ -1,5 +1,6 @@
 package ParserPackage;
 
+<<<<<<< HEAD
 import java.util.*;
 public class PRNParser {
     String lastReadLine;
@@ -8,6 +9,15 @@ public class PRNParser {
     public PRNParser(){
         lastReadLine = null;
         status = "Completed";
+=======
+public class PRNParser {
+    String lastReadLine;
+    String status;
+
+    public PRNParser(){
+        lastReadLine = null;
+        status = "Done";
+>>>>>>> refs/heads/ido_unit-testing
     }
 
     public Book GetLastRead() {
